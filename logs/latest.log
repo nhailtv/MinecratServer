@@ -1,0 +1,234 @@
+[10:02:32] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:02:33] [ServerMain/INFO]: Loaded 7 recipes
+[10:02:33] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[10:02:33] [Server thread/INFO]: Loading properties
+[10:02:33] [Server thread/INFO]: This server is running Paper version git-Paper-64 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 12c9700)
+[10:02:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:02:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:02:34] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[10:02:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 5 worker threads, and gen parallelism of 5 threads
+[10:02:34] [Server thread/INFO]: Default game type: SURVIVAL
+[10:02:34] [Server thread/INFO]: Generating keypair
+[10:02:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:02:34] [Server thread/INFO]: Using default channel type
+[10:02:34] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[10:02:34] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[10:02:35] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loading 1 libraries... please wait
+[10:02:35] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loaded library C:\Users\Admin\Desktop\Server\libraries\org\jetbrains\kotlin\kotlin-stdlib\1.8.0\kotlin-stdlib-1.8.0.jar
+[10:02:35] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loaded library C:\Users\Admin\Desktop\Server\libraries\org\jetbrains\kotlin\kotlin-stdlib-common\1.8.0\kotlin-stdlib-common-1.8.0.jar
+[10:02:35] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loaded library C:\Users\Admin\Desktop\Server\libraries\org\jetbrains\annotations\13.0\annotations-13.0.jar
+[10:02:35] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[10:02:37] [Server thread/WARN]: Legacy plugin HopperFilterSimplified v0.7.1 does not specify an api-version.
+[10:02:37] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.98
+[10:02:37] [Server thread/INFO]: [ValhallaTrinkets] Loading server plugin ValhallaTrinkets v1.0
+[10:02:37] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[10:02:37] [Server thread/INFO]: [ValhallaMMO] Loading server plugin ValhallaMMO vALPHA_1.8.2
+[10:02:37] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1-dev+29-6012959
+[10:02:37] [Server thread/INFO]: [ValhallaRaces] Loading server plugin ValhallaRaces v1.2
+[10:02:37] [Server thread/INFO]: [Shopkeepers] Loading server plugin Shopkeepers v2.17.1
+[10:02:38] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (532 ms).
+[10:02:38] [Server thread/INFO]: [Shopkeepers] Loading config.
+[10:02:38] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[10:02:38] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[10:02:38] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.3.2
+[10:02:38] [Server thread/INFO]: [MobsToEggs] Loading server plugin MobsToEggs v1.7.3
+[10:02:38] [Server thread/INFO]: [MineableSpawners] Loading server plugin MineableSpawners v3.1.5
+[10:02:38] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.0
+[10:02:38] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v3.10.3 b763
+[10:02:38] [Server thread/INFO]: [HopperFilterSimplified] Loading server plugin HopperFilterSimplified v0.7.1
+[10:02:38] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1-dev+29-6012959
+[10:02:38] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[10:02:38] [Server thread/INFO]: [ChestSort] Loading server plugin ChestSort v13.6.3
+[10:02:38] [Server thread/INFO]: [AutomaticCraftingTable] Loading server plugin AutomaticCraftingTable v1.3.2
+[10:02:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:02:38] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.98
+[10:02:38] [Server thread/INFO]:         __    
+[10:02:38] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.98
+[10:02:38] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[10:02:38] [Server thread/INFO]: 
+[10:02:38] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[10:02:39] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[10:02:39] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[10:02:39] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[10:02:39] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1406ms)
+[10:02:39] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[10:02:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[10:02:40] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[10:02:40] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[10:02:40] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[10:02:40] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.2
+[10:02:40] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[10:02:40] [Server thread/WARN]: It seems like you're running on paper.
+[10:02:40] [Server thread/WARN]: This may cause issues.
+[10:02:40] [Server thread/WARN]: If you encounter any issues, please join my dicord: https://discord.gg/dBhfCzdZxq
+[10:02:40] [Server thread/WARN]: Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[10:02:40] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[10:02:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:02:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:02:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:02:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:02:40] [Server thread/INFO]: Preparing level "world"
+[10:02:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:02:41] [Server thread/INFO]: Time elapsed: 337 ms
+[10:02:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:02:41] [Server thread/INFO]: Time elapsed: 21 ms
+[10:02:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:02:41] [Server thread/INFO]: Time elapsed: 16 ms
+[10:02:41] [Server thread/INFO]: [ValhallaTrinkets] Enabling ValhallaTrinkets v1.0
+[10:02:41] [Server thread/WARN]: filler item type GRAY_STAINED_GLASS_PANELOL is not valid
+[10:02:41] [Server thread/INFO]: [ValhallaTrinkets] ValhallaMMO hooked! Adding a bunch of cool stuff. Use /val setuptrinkets to load in its custom recipes (probably only use it once tho)
+[10:02:41] [Server thread/INFO]: [ValhallaMMO] Enabling ValhallaMMO vALPHA_1.8.2
+[10:02:41] [Server thread/WARN]: [ValhallaMMO] This version of ValhallaMMO is not compatible, versions at or under 1.16.4 are not supported. Certain features are disabled. (don't worry, no such features exist yet)
+[10:02:41] [Server thread/INFO]: [ValhallaMMO] Enabling ValhallaMMO, this might take a bit...
+[10:02:42] [Server thread/INFO]: Database connection created!
+[10:02:43] [Server thread/INFO]: [ValhallaTrinkets] Registered new ValhallaTrinkets modifiers
+[10:02:43] [Server thread/INFO]: [ValhallaMMO] Successfully loaded custom shaped recipes
+[10:02:43] [Server thread/INFO]: [ValhallaMMO] Successfully loaded custom smithing table recipes
+[10:02:43] [Server thread/INFO]: [ValhallaMMO] Successfully loaded custom cooking recipes
+[10:02:44] [Server thread/INFO]: >> INFO : physical damage scaling set to (%damage% * (10 / (10 + %armor%)) - (%damage%^2 * 0.00005 * %toughness%))
+[10:02:44] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1-dev+29-6012959
+[10:02:44] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[10:02:44] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[10:02:44] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[10:02:44] [Server thread/INFO]: [Essentials] Using locale en_US
+[10:02:44] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[10:02:44] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[10:02:44] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[10:02:44] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[10:02:44] [Server thread/INFO]: [ValhallaRaces] Enabling ValhallaRaces v1.2
+[10:02:44] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.17.1
+[10:02:44] [Server thread/INFO]: [MobsToEggs] Enabling MobsToEggs v1.7.3
+[10:02:44] [Server thread/INFO]: [MobsToEggs] Loading files for MobsToEggs...
+[10:02:44] [Server thread/INFO]: [MobsToEggs] Loading language: en
+[10:02:44] [Server thread/INFO]: [MobsToEggs] Using Dependencies:
+[10:02:44] [Server thread/INFO]: [MineableSpawners] Enabling MineableSpawners v3.1.5
+[10:02:44] [Server thread/INFO]: [LPC] Enabling LPC v3.6.0
+[10:02:44] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v3.10.3 b763
+[10:02:44] [Server thread/INFO]: LevelledMobs: Using NMS version v1_20_R1 for nametag support
+[10:02:44] [Server thread/INFO]: LevelledMobs: File Loader: Loading files...
+[10:02:44] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'rules.yml'...
+[10:02:44] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'settings.yml'...
+[10:02:44] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'messages.yml'...
+[10:02:44] [Server thread/INFO]: LevelledMobs: Listeners: Registering event listeners...
+[10:02:44] [Server thread/INFO]: LevelledMobs: Commands: Registering commands...
+[10:02:44] [Server thread/INFO]: LevelledMobs: Running misc procedures
+[10:02:44] [Server thread/INFO]: LevelledMobs: Tasks: Starting async nametag auto update task...
+[10:02:44] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'customdrops.yml'...
+[10:02:44] [Server thread/INFO]: LevelledMobs: Start-up complete (took 178ms)
+[10:02:44] [Server thread/INFO]: [HopperFilterSimplified] Enabling HopperFilterSimplified v0.7.1*
+[10:02:44] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1-dev+29-6012959
+[10:02:45] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[10:02:45] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[10:02:45] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[10:02:45] [Server thread/INFO]: [ClearLag] Loading modules...
+[10:02:45] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[10:02:45] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[10:02:45] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[10:02:45] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[10:02:45] [Thread-11/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[10:02:45] [Server thread/INFO]: [ChestSort] Enabling ChestSort v13.6.3
+[10:02:45] [Server thread/INFO]: [ChestSort] Use permissions: true
+[10:02:45] [Server thread/INFO]: [ChestSort] Current sorting method: {category},{itemsFirst},{name},{color},{customName}
+[10:02:45] [Server thread/INFO]: [ChestSort] Allow automatic chest sorting:true
+[10:02:45] [Server thread/INFO]: [ChestSort]   |- Chest sorting enabled by default: false
+[10:02:45] [Server thread/INFO]: [ChestSort]   |- Sort time: close
+[10:02:45] [Server thread/INFO]: [ChestSort] Allow automatic inventory sorting:true
+[10:02:45] [Server thread/INFO]: [ChestSort]   |- Inventory sorting enabled by default: false
+[10:02:45] [Server thread/INFO]: [ChestSort] Auto generate category files: true
+[10:02:45] [Server thread/INFO]: [ChestSort] Allow hotkeys: true
+[10:02:45] [Server thread/INFO]: [ChestSort] Hotkeys enabled by default:
+[10:02:45] [Server thread/INFO]: [ChestSort]   |- Middle-Click: true
+[10:02:45] [Server thread/INFO]: [ChestSort]   |- Shift-Click: true
+[10:02:45] [Server thread/INFO]: [ChestSort]   |- Double-Click: true
+[10:02:45] [Server thread/INFO]: [ChestSort]   |- Shift-Right-Click: true
+[10:02:45] [Server thread/INFO]: [ChestSort] Allow additional hotkeys: true
+[10:02:45] [Server thread/INFO]: [ChestSort] Additional hotkeys enabled by default:
+[10:02:45] [Server thread/INFO]: [ChestSort]   |- Left-Click: false
+[10:02:45] [Server thread/INFO]: [ChestSort]   |- Right-Click: false
+[10:02:45] [Server thread/INFO]: [ChestSort] Check for updates: true
+[10:02:45] [Server thread/INFO]: [ChestSort] Check interval: 4 hours (4.0 seconds)
+[10:02:45] [Server thread/INFO]: [ChestSort] Categories: 900-weapons (6), 905-common-tools (4), 907-other-tools (6), 909-food (33), 910-valuables (47), 920-armor-and-arrows (9), 930-brewing (18), 950-redstone (23), 960-wood (60), 970-stone (38), 980-plants (50), 981-corals (1)
+[10:02:45] [Server thread/INFO]: [AutomaticCraftingTable] Enabling AutomaticCraftingTable v1.3.2
+[10:02:45] [Server thread/INFO]: [AutomaticCraftingTable] [STDOUT] [AutomaticCraftingTable] Plugin has been enabled.
+[10:02:45] [Server thread/WARN]: Nag author(s): '[Phil]' of 'AutomaticCraftingTable v1.3.2' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[10:02:45] [Server thread/WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
+[10:02:45] [Server thread/INFO]: Running delayed init tasks
+[10:02:45] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[10:02:45] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[10:02:45] [Craft Scheduler Thread - 8 - Vault/INFO]: [Vault] Checking for Updates ... 
+[10:02:45] [Server thread/INFO]: Done (11.430s)! For help, type "help"
+[10:02:45] [Server thread/INFO]: Timings Reset
+[10:02:45] [Craft Scheduler Thread - 8 - Vault/INFO]: [Vault] No new version available
+[10:02:45] [Thread-11/INFO]: [ClearLag] No updates found!
+[10:02:45] [Craft Scheduler Thread - 2 - ValhallaMMO/INFO]: [ValhallaMMO] Successfully loaded custom brewing recipes
+[10:02:45] [Craft Scheduler Thread - 2 - ValhallaMMO/INFO]: [ValhallaMMO] Successfully loaded custom crafting recipes
+[10:02:45] [Craft Scheduler Thread - 2 - ValhallaMMO/INFO]: [ValhallaMMO] Successfully loaded custom item improvement recipes
+[10:02:45] [Craft Scheduler Thread - 2 - ValhallaMMO/INFO]: [ValhallaMMO] Successfully loaded custom item class improvement recipes
+[10:02:45] [Craft Scheduler Thread - 2 - ValhallaMMO/INFO]: [ValhallaMMO] Successfully loaded custom cauldron recipes
+[10:02:46] [Server thread/INFO]: ValhallaTrinkets found! Trinkets now contribute to stats as well
+[10:21:18] [User Authenticator #0/INFO]: UUID of player meera is 35219084-9a3f-3a5e-a7cc-4029e0960761
+[10:21:18] [Server thread/INFO]: meera joined the game
+[10:21:18] [Server thread/INFO]: meera[/26.30.138.144:56185] logged in with entity id 363 at ([world]397.99096850320956, 64.0, -338.8524638760659)
+[10:21:18] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 73.399900ms. Summary: Getting prefix for meera
+[10:21:33] [Server thread/INFO]: meera issued server command: /shop
+[10:32:48] [Server thread/INFO]: meera issued server command: /home
+[10:38:10] [Server thread/INFO]: meera issued server command: /home
+[10:45:37] [Server thread/INFO]: meera lost connection: Disconnected
+[10:45:37] [Server thread/INFO]: meera left the game
+[11:01:49] [Server thread/INFO]: Stopping the server
+[11:01:49] [Server thread/INFO]: Stopping server
+[11:01:49] [Server thread/INFO]: [AutomaticCraftingTable] Disabling AutomaticCraftingTable v1.3.2
+[11:01:49] [Server thread/INFO]: [ChestSort] Disabling ChestSort v13.6.3
+[11:01:49] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[11:01:49] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[11:01:49] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.1-dev+29-6012959
+[11:01:49] [Server thread/INFO]: [HopperFilterSimplified] Disabling HopperFilterSimplified v0.7.1
+[11:01:49] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v3.10.3 b763
+[11:01:49] [Server thread/INFO]: LevelledMobs: Tasks: Stopping async nametag auto update task...
+[11:01:49] [Server thread/INFO]: LevelledMobs: Tasks: Shutting down other async tasks...
+[11:01:49] [Server thread/INFO]: LevelledMobs: Shut-down complete (took 1ms)
+[11:01:49] [Server thread/INFO]: [LPC] Disabling LPC v3.6.0
+[11:01:49] [Server thread/INFO]: [MineableSpawners] Disabling MineableSpawners v3.1.5
+[11:01:49] [Server thread/INFO]: [MobsToEggs] Disabling MobsToEggs v1.7.3
+[11:01:49] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.3.2
+[11:01:49] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.17.1
+[11:01:49] [Server thread/INFO]: [ValhallaRaces] Disabling ValhallaRaces v1.2
+[11:01:49] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1-dev+29-6012959
+[11:01:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[11:01:49] [Server thread/INFO]: [ValhallaMMO] Disabling ValhallaMMO vALPHA_1.8.2
+[11:01:49] [Server thread/INFO]: No item adjustments detected, not saving indexed items!
+[11:01:49] [Server thread/INFO]: No recipe adjustments detected, not saving recipes!
+[11:01:49] [Craft Scheduler Thread - 4 - LevelledMobs/INFO]: LevelledMobs: Mob processing queue Manager has exited
+[11:01:49] [Craft Scheduler Thread - 5 - LevelledMobs/INFO]: LevelledMobs: Nametag update queue Manager has exited
+[11:01:49] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[11:01:49] [Server thread/INFO]: [ValhallaTrinkets] Disabling ValhallaTrinkets v1.0
+[11:01:49] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.98
+[11:01:49] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[11:01:49] [Server thread/INFO]: [LuckPerms] Closing storage...
+[11:01:49] [Server thread/INFO]: [LuckPerms] Goodbye!
+[11:01:49] [Server thread/INFO]: Saving players
+[11:01:49] [Server thread/INFO]: Saving worlds
+[11:01:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:01:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[11:01:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[11:01:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[11:01:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 142 entity chunks, 0 poi chunks in world 'world' in 0.06s
+[11:01:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:01:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:01:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[11:01:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[11:01:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[11:01:50] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 102 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
+[11:01:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:01:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:01:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[11:01:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[11:01:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[11:01:50] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 41 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[11:01:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:01:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:01:50] [Server thread/INFO]: Flushing Chunk IO
+[11:01:50] [Server thread/INFO]: Closing Thread Pool
+[11:01:50] [Server thread/INFO]: Closing Server

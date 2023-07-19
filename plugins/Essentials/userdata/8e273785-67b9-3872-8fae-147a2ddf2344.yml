@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.132.83.25
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1689653677044
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1689653953002
+  login: 1689650543379
+money: '433.260000000000001'
+last-account-name: Nero
+lastlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: 957.3051856615513
+  y: 67.0
+  z: -730.1359067567869
+  yaw: -16.58261489868164
+  pitch: 29.35184669494629
+logoutlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: 307.82093142216087
+  y: 65.0
+  z: -280.9018285781546
+  yaw: 85.02813720703125
+  pitch: -4.187357425689697
+homes:
+  home:
+    world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+    world-name: world
+    x: 310.1767932641269
+    y: 65.0
+    z: -282.9550791756918
+    yaw: 1.1186349391937256
+    pitch: 13.464548110961914

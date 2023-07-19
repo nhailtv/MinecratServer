@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.238.117.173
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1688825468183
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1688825523157
+  login: 1688825403704
+money: '0'
+last-account-name: taolaotaolao
+lastlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: -28.24097881980118
+  y: 122.0
+  z: 19.54618205839965
+  yaw: 104.55000305175781
+  pitch: -56.54999923706055
+logoutlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: 297.30000001192093
+  y: 60.0
+  z: -334.988225512496
+  yaw: 176.59295654296875
+  pitch: -38.25004196166992

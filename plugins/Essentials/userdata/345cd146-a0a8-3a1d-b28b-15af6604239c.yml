@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.238.117.173
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1689518129375
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1689518521594
+  login: 1689515197078
+money: '0'
+last-account-name: Kain
+lastlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: -1574.423558911477
+  y: -41.0
+  z: -1256.519503072531
+  yaw: -84.81402587890625
+  pitch: 27.234254837036133
+homes:
+  home:
+    world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+    world-name: world
+    x: 363.79423929194786
+    y: 64.0
+    z: -337.88341455422096
+    yaw: -129.617431640625
+    pitch: 19.469207763671875
+logoutlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: 473.36479355900343
+  y: 33.0
+  z: -250.85759414379302
+  yaw: 134.6258544921875
+  pitch: 26.849933624267578

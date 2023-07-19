@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.72.181.174
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1689664630000
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1689665158583
+  login: 1689659596822
+money: '291.5499999999978'
+last-account-name: phu_huynh
+lastlocation:
+  world: 8cf364d7-7322-4a2d-8029-9f7fc1a2d6ad
+  world-name: world_nether
+  x: -91.05963529272627
+  y: 45.0
+  z: -62.77629561816755
+  yaw: -90.2239990234375
+  pitch: 32.099853515625
+homes:
+  home:
+    world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+    world-name: world
+    x: 296.9703858989293
+    y: 54.0
+    z: -189.45294556471808
+    yaw: 170.99354553222656
+    pitch: 32.099769592285156
+logoutlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: 299.47263426476934
+  y: 54.0
+  z: -190.75374045558218
+  yaw: -30.75628662109375
+  pitch: 8.099756240844727

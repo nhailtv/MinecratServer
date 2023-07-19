@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.30.138.144
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1689737890282
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1689738337559
+  login: 1689736878608
+money: '124.0700000000000341'
+last-account-name: meera
+lastlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: 405.9164324484795
+  y: 62.12510674958072
+  z: -209.91544629472142
+  yaw: -147.90138244628906
+  pitch: -8.735931396484375
+homes:
+  home:
+    world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+    world-name: world
+    x: 406.3313994925949
+    y: 64.0
+    z: -335.86479884832136
+    yaw: 140.24871826171875
+    pitch: 12.725689888000488
+logoutlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: 451.8421979876394
+  y: 63.0
+  z: -267.5312776598734
+  yaw: -126.02081298828125
+  pitch: 8.26318073272705

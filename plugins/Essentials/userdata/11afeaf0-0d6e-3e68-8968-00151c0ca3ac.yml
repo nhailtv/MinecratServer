@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.243.7.194
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1688749832284
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1688750511182
+  login: 1688749295069
+money: '0'
+last-account-name: Dang131
+lastlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: -34.22763811159432
+  y: 126.0
+  z: -20.41314820158741
+  yaw: -23.977630615234375
+  pitch: 42.987545013427734
+logoutlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: 23.69999998807907
+  y: 111.0
+  z: 78.30000001192093
+  yaw: 30.75504493713379
+  pitch: 23.62315559387207

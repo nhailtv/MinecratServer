@@ -1,0 +1,73 @@
+drop_trinkets_on_death: true
+
+trinket_menu_size: 9
+trinket_title: '&8Trinkets'
+
+filler_item:
+  type: 'GRAY_STAINED_GLASS_PANELOL'
+  data: -1
+  display_name: '&8'
+  lore: []
+
+trinket_types:
+  0:
+    name: '&8Ring'
+    valid_slots:
+    - 0
+    - 2
+    placeholder:
+      type: 'ROTTEN_FLESH'
+      data: 5829310
+      display_name: '&8[Ring]'
+      lore: []
+  1:
+    name: '&8Necklace'
+    valid_slots:
+    - 4
+    placeholder:
+      type: 'ROTTEN_FLESH'
+      data: 5829311
+      display_name: '&8[Necklace]'
+      lore: []
+  2:
+    name: '&8Armband'
+    valid_slots:
+    - 6
+    - 8
+    placeholder:
+      type: 'ROTTEN_FLESH'
+      data: 5829312
+      display_name: '&8[Armband]'
+      lore: []
+  3:
+    name: '&8Belt'
+    valid_slots: []
+    placeholder:
+      type: 'ROTTEN_FLESH'
+      data: 5829313
+      display_name: '&8[Belt]'
+      lore: []
+  4:
+    name: '&8Mask'
+    valid_slots: []
+    placeholder:
+      type: 'ROTTEN_FLESH'
+      data: 5829314
+      display_name: '&8[Mask]'
+      lore: []
+  5:
+    name: '&8Pin'
+    valid_slots: []
+    placeholder:
+      type: 'ROTTEN_FLESH'
+      data: 5829315
+      display_name: '&8[Pin]'
+      lore: []
+  6:
+    name: '&8Circlet'
+    valid_slots: []
+    placeholder:
+      type: 'ROTTEN_FLESH'
+      data: 5829316
+      display_name: '&8[Circlet]'
+      lore: []

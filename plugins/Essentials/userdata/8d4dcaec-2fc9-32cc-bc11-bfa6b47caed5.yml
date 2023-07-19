@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.165.183.151
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1689517793921
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1689564490840
+  login: 1689564080413
+money: '0'
+last-account-name: emBeoxinchao
+lastlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: 103.81110072271706
+  y: 83.0
+  z: -439.7790121597106
+  yaw: -118.15040588378906
+  pitch: 58.80006408691406
+logoutlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: 83.11107810061941
+  y: 131.0
+  z: -401.28517722526874
+  yaw: -179.7001190185547
+  pitch: 17.850099563598633

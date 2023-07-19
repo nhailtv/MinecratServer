@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.243.41.103
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1689089623586
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1689091233220
+  login: 1689089176612
+money: '0'
+last-account-name: vqhung
+lastlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: -23.96876091616797
+  y: 123.0
+  z: -2.0166423772823983
+  yaw: 70.0512466430664
+  pitch: 53.40038299560547
+logoutlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: 383.21945242703197
+  y: 63.0
+  z: -357.25697386047227
+  yaw: 83.5772705078125
+  pitch: 15.450267791748047

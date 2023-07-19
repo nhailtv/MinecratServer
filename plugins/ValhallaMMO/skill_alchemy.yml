@@ -1,0 +1,849 @@
+display_name: '<lang.skill-alchemy-displayname>'
+icon: 'BREWING_STAND'
+icon_data: 3510001
+description: '<lang.skill-alchemy-description>'
+
+levelbar_title: '<lang.skill-alchemy-level-bar>'
+levelbar_color: 'PURPLE'
+levelbar_style: 'SEGMENTED_6'
+
+radius_transmutation_liquid: 2
+transmutation_liquid_flash: true
+transmutation_sound: 'BLOCK_ENCHANTMENT_TABLE_USE'
+
+# If true, whenever the player duplicates an ingredient using the "save ingredient" passive the item spawns on top of the brewing stand instead of staying in the stand
+save_ingredient_spawn_on_top_of_stand: true
+
+# If true, players are able to instantly empty potions when clicking them on a cauldron
+quick_empty_potions: true
+
+# Treatments
+hide_treatment_lore: false
+quality_cosmetic:
+  0: <lang.alchemy-quality-rancid>
+  50: <lang.alchemy-quality-tainted>
+  100: <lang.alchemy-quality-dirty>
+  150: <lang.alchemy-quality-cloudy>
+  200: <lang.alchemy-quality-clear>
+  250: <lang.alchemy-quality-refined>
+  300: <lang.alchemy-quality-pure>
+  # If left empty, they won't appear.
+
+effects_inverted:
+  HEAL:
+    inverted_effect: HARM
+    color: '#220045'
+    duration: 1
+    amplifier: 0
+  SPEED:
+    inverted_effect: SLOW
+    color: '#6a869e'
+    duration: 1800
+    amplifier: 0
+  NIGHT_VISION:
+    inverted_effect: INVISIBILITY
+    color: '#78d6bd'
+    duration: 3600
+    amplifier: 0
+  POISON:
+    inverted_effect: HARM
+    color: '#220045'
+    duration: 1
+    amplifier: 0
+  FIRE_RESISTANCE:
+    inverted_effect: SLOW
+    color: '#6a869e'
+    duration: 1800
+    amplifier: 0
+  INCREASE_DAMAGE:
+    inverted_effect: WEAKNESS
+    color: '#86aac2'
+    duration: 1800
+    amplifier: 0
+  # spider eye to invert a potion's effects. If this modifier is applied to a potion effect, these potion effects are inverted.
+
+# These treatments include TEMPERING, SHARPENING_FINE, ENGRAVING, and LEATHER_BINDING. As well as ARMOR_FITTING for armor,
+# WAX_COATING for wooden and stone tools,
+treatment_lore:
+  CONCENTRATED: '<lang.alchemy-treatment-concentrated>'
+  DILUTED: '<lang.alchemy-treatment-diluted>'
+  FILTERED: '<lang.alchemy-treatment-filtered>'
+  EMPOWERED: '<lang.alchemy-treatment-empowered>'
+  IMBUED: '<lang.alchemy-treatment-imbued>'
+  ENCHANTED: '<lang.alchemy-treatment-enchanted>'
+  POLLUTED: '<lang.alchemy-treatment-polluted>'
+  TRANSMUTATION: '<lang.alchemy-treatment-transmutation>'
+
+  # Vanilla potions, because they can only have whole number strengths, will have whatever the outcome of a scaling
+  # formula rounded DOWNWARDS
+# Here you can fill in the formulas used for calculating the durations of potions brewed
+scaling_duration:
+  # Certain potions, like instant health, instant damage, or midas will always have a duration of 0, so they are excluded.
+  regeneration:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    # ADD_ON_DEFAULT instead adds the outcome of the scaling to the attribute's base value.
+    lower_bound: 0
+    upper_bound: 'none'
+  resistance:
+    scaling: '(1.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  haste:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  fire_resistance:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  health_boost:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  strength:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  invisibility:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  jump_boost:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  luck:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  night_vision:
+    scaling: '(4.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  saturation:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  speed_boost:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  water_breathing:
+    scaling: '(4.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  conduit_power:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  hero_of_the_village:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  wither:
+    scaling: '(2/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  bad_luck:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  weakness:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  mining_fatigue:
+    scaling: '(1.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  slowness:
+    scaling: '(1.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  hunger:
+    scaling: '(2/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  nausea:
+    scaling: '(1.4/300) * %rating% + 0.1'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  blindness:
+    scaling: '(1.4/300) * %rating% + 0.1'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  poison:
+    scaling: '(2/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  bad_omen:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  # CUSTOM POTION EFFECT SECTION
+  fortify_enchanting:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  fortify_anvil_combining:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  fortify_smithing:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  masterpiece_smithing:
+    scaling: '1'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  masterpiece_enchanting:
+    scaling: '1'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  masterpiece_alchemy:
+    scaling: '1'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  alchemy_speed:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  alchemy_ingredient_save:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  alchemy_potion_save:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  alchemy_potion_velocity:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  archery_accuracy:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  archery_strength:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  archery_ammo_save:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  damage_weapons:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  mining_extra_drops:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  mining_rare_drops:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  farming_extra_drops:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  farming_rare_drops:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  woodcutting_extra_drops:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  woodcutting_rare_drops:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  increase_exp_skill:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  increase_exp_vanilla:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  poison_anti_heal:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  poison_vulnerable:
+    scaling: '(1.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  armor_flat_bonus:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  light_armor_flat_bonus:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  heavy_armor_flat_bonus:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  armor_fraction_bonus:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  light_armor_fraction_bonus:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  heavy_armor_fraction_bonus:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  custom_damage_resistance:
+    scaling: '(1.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  explosion_resistance:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  custom_fire_resistance:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  magic_resistance:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  poison_resistance:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  projectile_resistance:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  melee_resistance:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  falling_resistance:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  knockback_resistance:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  bleed_resistance:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  crafting_time_reduction:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  hunger_save_chance:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  dodge_chance:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  knockback_bonus:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  cooldown_reduction:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  immunity_frame_bonus:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  immunity_frame_multiplier:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  healing_bonus:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  reflect_chance:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  reflect_fraction:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  fraction_armor_reduction:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  flat_armor_reduction:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+
+# The same as duration, but for a potion's strength.
+# Vanilla potions will have the outcome of this formula rounded downwards, so if a vanilla potion's strength would be
+# 2.5 according to the formula, it will instead be 2 (or II)
+# Custom potion effects will not go through this same process, as their potency can be much more precise.
+scaling_amplifier:
+  # Certain potions, like fire resistance or night vision, have no difference in effect for any level higher than 1,
+  # so they are excluded.
+  # For vanilla potions their amplifier will always be at least 1
+  regeneration:
+    scaling: '(1.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    # ADD_ON_DEFAULT instead adds the outcome of the scaling to the attribute's base value.
+    lower_bound: 0
+    upper_bound: 'none'
+  resistance:
+    scaling: '(0.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  haste:
+    scaling: '(1.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  health_boost:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  instant_health:
+    scaling: '(1.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  instant_damage:
+    scaling: '(1.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  strength:
+    scaling: '(1.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  jump_boost:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  luck:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  saturation:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  speed_boost:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  hero_of_the_village:
+    scaling: '(1.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  wither:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  bad_luck:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  weakness:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  mining_fatigue:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  slowness:
+    scaling: '(1.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  hunger:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  poison:
+    scaling: '(2.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  bad_omen:
+    scaling: '(3.7/300) * %rating% + 0.3'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  # CUSTOM POTION EFFECT SECTION
+  fortify_enchanting:
+    scaling: '(45/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 75
+  fortify_anvil_combining:
+    scaling: '(45/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 75
+  fortify_smithing:
+    scaling: '(45/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  masterpiece_smithing:
+    scaling: '1'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  masterpiece_enchanting:
+    scaling: '1'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  masterpiece_alchemy:
+    scaling: '1'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  alchemy_speed:
+    scaling: '(45/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  alchemy_ingredient_save:
+    scaling: '(24/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  alchemy_potion_saving:
+    scaling: '1'
+    mode: 'MULTIPLIER'
+    lower_bound: 0
+    upper_bound: 'none'
+  alchemy_potion_velocity:
+    scaling: '(45/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  archery_accuracy:
+    scaling: '(9/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  archery_strength:
+    scaling: '(0.19/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  archery_ammo_save:
+    scaling: '(0.24/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  damage_weapons:
+    scaling: '(0.19/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  mining_extra_drops:
+    scaling: '(24/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  mining_rare_drops:
+    scaling: '(95/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  farming_extra_drops:
+    scaling: '(24/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  farming_rare_drops:
+    scaling: '(95/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  digging_extra_drops:
+    scaling: '(24/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  digging_rare_drops:
+    scaling: '(95/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  woodcutting_extra_drops:
+    scaling: '(24/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  woodcutting_rare_drops:
+    scaling: '(95/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  increase_exp_skill:
+    scaling: '(45/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  increase_exp_vanilla:
+    scaling: '(95/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  poison_anti_heal:
+    scaling: '(0.65/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  poison_vulnerable:
+    scaling: '(0.19/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  armor_flat_bonus:
+    scaling: '(9/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  light_armor_flat_bonus:
+    scaling: '(9/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  heavy_armor_flat_bonus:
+    scaling: '(9/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  armor_fraction_bonus:
+    scaling: '(0.19/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  light_armor_fraction_bonus:
+    scaling: '(0.19/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  heavy_armor_fraction_bonus:
+    scaling: '(0.19/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  custom_damage_resistance:
+    scaling: '(0.19/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  explosion_resistance:
+    scaling: '(0.29/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  custom_fire_resistance:
+    scaling: '(0.29/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  magic_resistance:
+    scaling: '(0.29/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  poison_resistance:
+    scaling: '(0.29/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  projectile_resistance:
+    scaling: '(0.19/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  melee_resistance:
+    scaling: '(0.19/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  falling_resistance:
+    scaling: '(0.29/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  knockback_resistance:
+    scaling: '(0.45/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  bleed_resistance:
+    scaling: '(0.65/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  crafting_time_reduction:
+    scaling: '(0.45/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  hunger_save_chance:
+    scaling: '(0.29/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  dodge_chance:
+    scaling: '(0.19/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  knockback_bonus:
+    scaling: '(0.95/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  cooldown_reduction:
+    scaling: '(0.29/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  immunity_frame_bonus:
+    scaling: '(4/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  immunity_frame_multiplier:
+    scaling: '(0.19/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  healing_bonus:
+    scaling: '(0.45/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  reflect_chance:
+    scaling: '(0.19/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  reflect_fraction:
+    scaling: '(0.29/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  fraction_armor_reduction:
+    scaling: '(0.29/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'
+  flat_armor_reduction:
+    scaling: '(14/300) * %rating%'
+    mode: 'ADD_ON_DEFAULT'
+    lower_bound: 0
+    upper_bound: 'none'

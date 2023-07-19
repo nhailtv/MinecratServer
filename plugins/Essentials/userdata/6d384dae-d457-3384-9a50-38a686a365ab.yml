@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1689581133361
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1689582514409
+  login: 1689579846429
+money: '0'
+last-account-name: L1m
+homes:
+  home:
+    world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+    world-name: world
+    x: 101.5
+    y: 120.0
+    z: 182.5
+    yaw: -1.5
+    pitch: 1.9500000476837158
+lastlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: 284.74326411012817
+  y: 72.0
+  z: -180.65529533599846
+  yaw: 101.88768005371094
+  pitch: 33.037906646728516
+logoutlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: 277.5
+  y: 64.875
+  z: -446.5
+  yaw: -151.90676879882812
+  pitch: 3.546415328979492

@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.165.183.151
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1689731055460
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1689731248783
+  login: 1689730391177
+money: '0'
+last-account-name: Sinon
+lastlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: 67.73537531887658
+  y: -16.0
+  z: -467.4322279666169
+  yaw: 31.17877197265625
+  pitch: 50.10002899169922
+homes:
+  home:
+    world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+    world-name: world
+    x: 84.94721737277673
+    y: 131.0
+    z: -403.03585199356854
+    yaw: 178.0115966796875
+    pitch: 22.500049591064453
+logoutlocation:
+  world: 3177bb6a-3fd9-4d03-af12-201eeb593d45
+  world-name: world
+  x: 87.07499998807907
+  y: 134.0
+  z: -402.58429555154987
+  yaw: -73.34982299804688
+  pitch: 18.750059127807617
